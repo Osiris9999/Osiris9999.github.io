@@ -35,7 +35,7 @@ img {
 }
 
 .flex {
-    width: 50px;
+    width: 3.125rem;
     display: flex;
     justify-content: space-around;
 }
@@ -56,11 +56,9 @@ img {
 
 .photo-item {
     border: 1px solid #fff;
-    width: 500px;
-    height: 200px;
-    padding-bottom: 40px;
-    /* flex-wrap: wrap; */
-
+    width: 31.25rem;
+    height: 12.5rem;
+    padding-bottom: 2.5rem;
 }
 
 .buttons {
@@ -68,9 +66,9 @@ img {
     flex-direction: row;
     align-items: flex-end;
     justify-content: flex-start;
-    padding-right: 210px;
-    padding-top: 170px;
-    padding-left: 160px;
+    padding-right: 13.125rem;
+    padding-top: 10.625rem;
+    padding-left: 10rem;
 }
 
 .features {
@@ -96,9 +94,9 @@ a {
 .button2,
 .button3 {
     font-size: 1rem;
-    margin-right: 20px;
-    margin-top: 50px;
-    padding: 50px 50px 50px 50px;
+    margin-right: 1.25rem;
+    margin-top: 3.125rem;
+    padding:    3.125rem;
     border-radius: 50%;
     border: 1px solid black;
     cursor: pointer;
@@ -131,18 +129,23 @@ header {
 
 .feature-p {
     text-align: left;
-    margin: 0px 20px 0px 20px;
-    padding: 0px 30px 20px 30px;
+    margin: 0 1.25rem 0 1.25rem;
+    padding: 0 1.875rem 1.25rem 1.875rem;
     font-family: 'Sen', sans-serif;
+}
+
+.gallery h2 {
+    font-size: 2.25rem;
+    font-family: 'Bebas Neue', cursive;
 }
 
 .gallery img {
     border-radius: 0;
     max-width: 100%;
-    width: 600px;
+    width: 37.5rem;
 }
 
-@media (max-width: 40em) {
+@media (max-width: 60em) {
 
     .flex-container {
         display: block;
