@@ -1,0 +1,140 @@
+:root {
+    --background: #111111;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html {
+    font-size: 10px;
+    scroll-behavior: smooth;
+}
+
+p, li, a {
+    font-size: 2.9rem;
+    margin-top: 0.9em;
+}
+
+body {
+    background-color: #000000;
+    color:aliceblue;
+    font-size: 1.4rem;
+    font-family: cursive, serif;
+    line-height: 1.6;  
+    cursor: url("cursor.png"), default;
+}
+
+.main-container {
+    padding: 2em 2em;
+}
+
+#Osiris-head {
+    display: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.link a {
+    text-decoration: none;
+    margin: 0em 0.4em;
+    display: inline;
+    border-radius: 60%;
+    display: inline-block;
+    align-content: center;
+    filter: contrast(80%);
+    filter: drop-shadow(0 0 0.75rem crimson);
+}
+
+.link a:hover, .link a:focus {
+    color:chartreuse;
+    text-decoration: none;
+}
+
+.head {
+    font-size: 4.9rem;
+    font-family: Georgia, serif;
+    margin-top: 0.5em;
+}
+
+.icon-container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-flow: row wrap;
+    margin-top: 2em;
+}
+
+/* navigation styles */
+
+
+
+header {
+    background-color: var(--background);
+    text-align: center;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+}
+
+nav {
+    position: absolute;
+    text-align: left;
+    top: 100%;
+    left: 0;
+    background: var(--background);
+    width: 100%;
+}
+
+nav ul {
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+
+nav li {
+    margin-left: 1em;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.5em;
+    text-transform: uppercase;
+    padding: 54px 0px 11px 0px; 
+}
+
+article img {
+    margin-top: 120px;
+} 
+
+.container {
+    display: flex;
+    padding: 1em;
+    justify-content: space-around;
+}
+
+.container li {
+    padding: 0em 3em 0em 3em;
+    margin: 0;
+}
+
+.container li:hover {
+    background:rgb(255, 80, 97);
+}
+
+@media all and (max-width: 900px) {
+    .container {
+        display: none;
+    }
+
+    p, li, a {
+        font-size: 1.7rem;
+        line-height: 2.2;
+    }
+    
+    #Osiris-head {
+        display: block;
+    
+    }
+}
